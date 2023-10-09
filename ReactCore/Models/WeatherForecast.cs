@@ -1,4 +1,4 @@
-namespace ReactCore;
+namespace ReactCore.Models;
 
 public class WeatherForecast
 {

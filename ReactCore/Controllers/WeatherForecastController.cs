@@ -1,5 +1,6 @@
 ﻿using InertiaCore;
 using Microsoft.AspNetCore.Mvc;
+using ReactCore.Models;
 
 namespace ReactCore.Controllers;
 
