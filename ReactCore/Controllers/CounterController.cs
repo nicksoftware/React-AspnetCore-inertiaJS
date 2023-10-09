@@ -14,22 +14,5 @@ namespace ReactCore.Controllers
         {
             return Inertia.Render("Counter", new { Count = _counter });
         }
-
-
-        [HttpPost("increment")]
-        public IActionResult Increment()
-        {
-            _counter++;
-
-            return Redirect("/counter");
-        }
-
-        [HttpPost("decrement")]
-        public IActionResult Decrement()
-        {
-            _counter--;
-            return Redirect("/counter");
-        }
-
     }
 }
