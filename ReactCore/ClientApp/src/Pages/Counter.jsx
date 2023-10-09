@@ -1,17 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
-import { IconCircleLetterG } from "@tabler/icons-react";
-import {
-  Button,
-  Card,
-  Center,
-  Flex,
-  SimpleGrid,
-  Stack,
-  Text,
-  Title,
-} from "@mantine/core";
-import { useForm } from "@inertiajs/react";
+import { Button, Card, Flex, Text, Title } from "@mantine/core";
 
 export default function Counter() {
   const [counter, setCounter] = useState(0);
@@ -31,7 +20,7 @@ export default function Counter() {
         </Button>
         <Card>
           <Text aria-live="polite">
-            Current count: <strong>{counter}</strong>
+            <strong>{counter}</strong>
           </Text>
         </Card>
         <Button size="xl" onClick={increment}>
@@ -41,4 +30,5 @@ export default function Counter() {
     </Flex>
   );
 }
+
 Counter.layout = (page) => <Layout title="Counter" children={page} />;
