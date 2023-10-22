@@ -11,7 +11,7 @@ To get started with this project, you will need the following :
 
 - Restore the project dependencies using `dotnet restore` in the solution path
 
-- Once that is done, they should navigate into the ClientApp folder and install npm packages using `npm install`.
+- Once that is done, you should navigate into the ClientApp folder and install npm packages using `npm install`.
 
 ## Running Project
 
